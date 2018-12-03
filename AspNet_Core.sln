@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet_Core", "AspNet_Core\AspNet_Core.csproj", "{3395AE58-2854-4CCC-B4B2-10FF0AFC3E24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNet_Core", "AspNet_Core\AspNet_Core.csproj", "{3395AE58-2854-4CCC-B4B2-10FF0AFC3E24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet_Core.Tests", "AspNet_Core.Tests\AspNet_Core.Tests.csproj", "{0960DB78-CCBB-4402-945D-9520C3E23FEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3395AE58-2854-4CCC-B4B2-10FF0AFC3E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3395AE58-2854-4CCC-B4B2-10FF0AFC3E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3395AE58-2854-4CCC-B4B2-10FF0AFC3E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0960DB78-CCBB-4402-945D-9520C3E23FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0960DB78-CCBB-4402-945D-9520C3E23FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0960DB78-CCBB-4402-945D-9520C3E23FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0960DB78-CCBB-4402-945D-9520C3E23FEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
